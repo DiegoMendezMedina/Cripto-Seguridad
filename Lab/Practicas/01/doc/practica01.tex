@@ -1,0 +1,188 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,amsfonts, fancyhdr, color, comment, graphicx, environ}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{listings} 
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{ {Imagenes/} }
+\usepackage{mdframed}
+\usepackage[shortlabels]{enumitem}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\pagestyle{fancy}
+
+\newenvironment{problem}[2][Pregunta]
+    { \begin{mdframed}[backgroundcolor=gray!20] \textbf{#1 #2} \\}
+    {  \end{mdframed}}
+
+\newenvironment{solution}
+    {\textbf{Respuesta:\\}}
+    {}
+
+\renewcommand{\qed}{\quad\qedsymbol}
+
+\binoppenalty=\maxdimen
+\relpenalty=\maxdimen
+
+\lhead{Criptografía y Seguridad}
+\rhead{} 
+\chead{\textbf{Práctica 01}}
+
+\begin{document}
+
+\begin{section}{Cuestionario}  
+
+\begin{problem}
+    {1} Menciona los tipos de protocolos de red
+\end{problem}
+
+\begin{solution}
+    \begin{itemize}
+        \item \textbf{Protocolos de comunicación} \\
+        Son los que se encargan de establecer y gestionar las conexiones entre diferentes dispositivos.
+        \begin{itemize}
+            \item TCP/IP
+            \item FTP
+            \item SSH
+            \item HTTP
+        \end{itemize}
+
+        \item \textbf{Protocolos de transporte}\\
+        Son los encargados de transportar datos entre dispositivos.
+        \begin{itemize}
+            \item TCP
+            \item UDP
+        \end{itemize}
+
+        \item \textbf{Protocolos de aplicación}\\
+        Son aquellos que se utilizan para aplicaciones específicas, como el uso de redes sociales y el envio de correos electrónicos.
+        \begin{itemize}
+            \item SMTP
+            \item POP3
+            \item IMAP
+            \item DNS
+        \end{itemize}
+
+        \item \textbf{Protocolos de enrutamiento}\\
+        Aquellos utilizados para dirigir los paquetes de datos a través de la red.
+        \begin{itemize}
+            \item OSPF
+            \item RIP
+            \item BGP
+        \end{itemize}
+
+        \item \textbf{Protocolos de seguridad}\\
+        Son los encargados de proteger la información transmitida en la red.
+        \begin{itemize}
+            \item SSL/TLS
+            \item IPsec
+            \item SSH
+        \end{itemize}
+
+        \item \textbf{Protocolos de gestión}\\
+        Utilizados para administrar y monitorear dispositivos de red.
+        \begin{itemize}
+            \item SNMP
+            \item NetFlow
+        \end{itemize}
+    \end{itemize}
+\end{solution}
+
+\begin{problem}
+    {2} Respecto a tu pregunta anterior ¿Cómo funcionan? ¿Para qué sirven?
+\end{problem}
+
+\begin{solution}\\
+Respondido en la respuesta anterior.
+\end{solution}  
+
+\begin{problem}
+    {3} ¿Qué es un sniffer?
+\end{problem}
+
+\begin{solution}
+Se puede defininir como un software el cual está diseñado específicamente para redes, con el proposito de capturar y analizar los paquetes que se envían y reciben.\\
+El \textit{sniffer} sería capáz de detectar qué estamos visitando, qué información enviamos, etc. De esta forma nuestra privacidad podría verse comprometida.
+\end{solution}
+
+\begin{problem}
+    {4} OSINT, ¿Qué es? ¿Para qué sirve?
+\end{problem}
+\begin{solution}
+\textit{Open Source INTelligence}\\
+
+Es el conjunto de técnicas y herramientas para recopilar información pública, analizar los datos y correlacionarlos convirtiéndolos en conocimiento útil.\\
+
+Su utlidad se basa en conseguir toda la información disponible en cualquier fuente pública sobre una empresa, persona física o cualquier otra cosa sobre la que queremos recopilar información para realizar una investigación, y haciendo que todo el conjunto de datos se convierta en inteligencia que nos sirva para ser más eficaces a la hora de querer obtener un resultado.
+\end{solution}
+\begin{problem}
+    {5} Investiga los 5 OSINT más usados.
+\end{problem}
+
+\begin{solution}
+    \begin{enumerate}
+        \item \textbf{\textit{Google}}
+        \item \textbf{\textit{Redes sociales}}
+        \begin{itemize}
+            \item Facebook
+            \item Twitter
+            \item Linkedln
+            \item Instagram
+        \end{itemize}
+        \item \textbf{\textit{Wayback Machine}}\\
+         Es un servicio y una base de datos que contiene copias de una gran cantidad de páginas de Internet, con esto se pueden consultsr diferentes versiones de páginas de Internet.
+
+         \item \textbf{\textit{Maltego}}\\
+         Es una herramienta de visualización de datos que permite establecer relaciones y conexiones entre personas, organizaciones y otras entidades.
+
+         \item \textbf{\textit{Shodan}}\\
+         Es un motor de busqueda que registra información sobre dispositivos conectados a Internet, como servidores, routers, cámaras web, etc.
+    \end{enumerate}
+\end{solution}
+
+\begin{problem}
+    {6} ¿Por qué el eslabón más débil de seguridad es el humano?
+\end{problem}
+
+\begin{solution}
+    Esto se debe al hecho de que el ser humano no es perfecto y es facilmente influenciable.//
+
+    Teniendo como consencuencias que seamos propensos a cometer errores y ser manipulados y engañados. Lo cual, en materia de seguridad, puede llegar a tener repercuciones como caer en estafas o extersiones.\\
+    Dando un ejemplo más a fin, tomemos como ejemplo el phising o cuando compartimos contraseñas de redes sociales, cuentas de banco o del trabajo a personas sin pensar en las consecuencias que esto podría llegar a tener. Y esto más que nada es dado a que los humanos somos seres sentimentales y nuevamente, muy influenciables de lo que sucede en nuestro entorno.
+    
+\end{solution}
+
+\begin{problem}
+    {7} ¿Qué acciones haces para protegerte de ciberataques? 
+\end{problem}
+
+\begin{solution}
+    Actualmente, ambos integrantes del equipo no estabamos al corriente en todos las posibles maneras en las que nuestra seguridad infórmatica puede llegar a ser perturbada. Por lo que en estos mommentos creemos que la acción más "segura" que usamos es la autenticación por 2 pasos.
+\end{solution}
+
+\begin{problem}
+    {8}  ¿Crees que tus métodos preventivos son suficientes?
+\end{problem}
+
+\begin{solution}
+    No, tal vez la autetenrticación por 2 pasos hoy en día es un buen mecanismo, pero creemos que podemos hacer más para proteger nuestra información.
+\end{solution}
+
+\end{section}
+\begin{thebibliography}{2} % 100 is a random guess of the total number of
+%references
+\bibitem{} https://autmix.com/blog/que-es-protocolo-red
+\bibitem{} https://derechodelared.com/osint/
+\end{thebibliography}
+%%%%%%%%%%%%% end %%%%%
+\end{document}
