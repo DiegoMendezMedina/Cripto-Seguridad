@@ -1,0 +1,70 @@
+==========
+Se establecio conexión con unam.mx mediante ping
+==========
+nombre: unam.mx
+direcciòn:  132.248.166.20
+direcciòn:  132.248.166.17
+direcciòn:  132.248.166.18
+direcciòn:  132.248.166.19
+direcciòn:  2001:1218:3000:180::18
+direcciòn:  2001:1218:3000:180::20
+direcciòn:  2001:1218:3000:180::17
+direcciòn:  2001:1218:3000:180::19
+
+	=====
+	Saltos para lograr la conexiòn 
+	=====
+	traceroute to unam.mx (132.248.166.18), 30 hops max, 60 byte packets
+	 1  10.0.2.2 (10.0.2.2)  0.367 ms  0.312 ms  0.280 ms
+	 2  _gateway (192.168.1.254)  111.725 ms  111.694 ms  111.668 ms
+	 3  dsl-servicio-l200.uninet.net.mx (200.38.193.226)  9.304 ms  9.191 ms  9.160 ms
+	 4  inet-mex-estrella-32-tge0-0-0-0.uninet.net.mx (201.154.142.61)  9.085 ms inet-mex-estrella-32-tge0-1-0-0.uninet.net.mx (201.154.142.69)  9.060 ms  9.033 ms
+	 5  customer-189-240-8-165.uninet-ide.com.mx (189.240.8.165)  8.956 ms  8.928 ms  13.677 ms
+	 6  132.247.254.77 (132.247.254.77)  13.651 ms  11.180 ms  11.108 ms
+	 7  132.248.133.22 (132.248.133.22)  13.365 ms  13.132 ms  13.091 ms
+	 8  1004-iimas.redunam.unam.mx (132.247.237.214)  10.696 ms  10.658 ms  10.567 ms
+	 9  132.248.166.18 (132.248.166.18)  10.580 ms !X  10.400 ms !X  10.361 ms !X
+	=====
+	Fin de saltos
+	=====
+	===
+	Host is up (0.011s latency).
+	Other addresses for unam.mx (not scanned): 132.248.166.18 132.248.166.19 132.248.166.17 2001:1218:3000:180::20 2001:1218:3000:180::19 2001:1218:3000:180::18 2001:1218:3000:180::17
+	Not shown: 998 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+	PORT    STATE SERVICE
+	443/tcp open  https
+	Nmap done: 1 IP address (1 host up) scanned in 10.02 seconds
+	===
+Domain Name:       unam.mx
+Created On:        1989-03-31
+Expiration Date:   2023-03-30
+Last Updated On:   2022-12-09
+Registrar:         AKKY ONLINE SOLUTIONS, S.A. DE C.V.
+URL:               http://www.akky.mx
+Whois TCP URI:     whois.akky.mx
+Whois Web URL:     http://www.akky.mx/herramientas/whois.jsf
+Registrant:
+   Name:           UNAM
+   City:           Mexico
+   State:          Distrito Federal
+   Country:        Mexico
+Administrative Contact:
+   Name:           HECTOR BENITEZ PEREZ
+   City:           Mexico
+   State:          Ciudad de Mexico
+   Country:        Mexico
+Technical Contact:
+   Name:           ALEJANDRO CRUZ SANTOS
+   City:           Mexico
+   State:          Ciudad de Mexico
+   Country:        Mexico
+Billing Contact:
+   Name:           UNIDAD ADMINISTRATIVA DGTIC
+   City:           Mexico
+   State:          Ciudad de Mexico
+   Country:        Mexico
+Name Servers:
+   DNS:            ns3.unam.mx       132.248.108.215, 2001:1218:100:10a:108:0:0:215
+   DNS:            ns4.unam.mx       132.248.204.32, 2001:1218:403:203:204:0:0:32
+DNSSEC DS Records:
+   DS Record:      54058, 13 - ECDSE Curve P-256 with SHA-256, 2 - SHA-256, EA3EB01183E5BC13ACAC4692831EA81DA9B6D8F402AB3AB4FA1A5C1EF52869E0

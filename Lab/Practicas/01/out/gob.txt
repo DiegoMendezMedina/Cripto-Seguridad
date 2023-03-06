@@ -1,0 +1,67 @@
+==========
+Se establecio conexión con www.gob.mx mediante ping
+==========
+nombre: www.gob.mx
+direcciòn:  23.200.40.201
+direcciòn:  23.200.40.207
+
+	=====
+	Saltos para lograr la conexiòn 
+	=====
+	traceroute to www.gob.mx (23.200.40.201), 30 hops max, 60 byte packets
+	 1  10.0.2.2 (10.0.2.2)  0.247 ms  0.167 ms  0.130 ms
+	 2  7962v1.bwrouter (192.168.1.254)  24.065 ms  24.004 ms  23.949 ms
+	 3  dsl-servicio-l200.uninet.net.mx (200.38.193.226)  26.218 ms  26.149 ms  26.236 ms
+	 4  reg-qro-triara-48-ae20_0.uninet.net.mx (189.246.170.226)  26.058 ms  26.011 ms  25.970 ms
+	 5  ext-189-247-221-11.uninet.net.mx (189.247.221.11)  91.734 ms  91.697 ms  91.661 ms
+	 6  * * *
+	 7  * * *
+	 8  a23-200-40-201.deploy.static.akamaitechnologies.com (23.200.40.201)  28.624 ms  28.591 ms  28.693 ms
+	=====
+	Fin de saltos
+	=====
+	===
+	Host is up (0.035s latency).
+	Other addresses for www.gob.mx (not scanned): 23.200.40.201
+	rDNS record for 23.200.40.207: a23-200-40-207.deploy.static.akamaitechnologies.com
+	Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+	PORT    STATE SERVICE
+	80/tcp  open  http
+	443/tcp open  https
+	Nmap done: 1 IP address (1 host up) scanned in 5.90 seconds
+	===
+Domain Name:       www.gob.mx
+Created On:        2002-03-01
+Expiration Date:   2024-02-28
+Last Updated On:   2023-03-01
+Registrar:         AKKY ONLINE SOLUTIONS, S.A. DE C.V.
+URL:               http://www.akky.mx
+Whois TCP URI:     whois.akky.mx
+Whois Web URL:     http://www.akky.mx/herramientas/whois.jsf
+Registrant:
+   Name:           Secretaria de la Funcion Publica
+   City:           Mexico
+   State:          Distrito Federal
+   Country:        Mexico
+Administrative Contact:
+   Name:           Eduardo Martinez Vargas
+   City:           Mexico
+   State:          Ciudad de Mexico
+   Country:        Mexico
+Technical Contact:
+   Name:           Eduardo Martinez Vargas
+   City:           Mexico
+   State:          Ciudad de Mexico
+   Country:        Mexico
+Billing Contact:
+   Name:           Eduardo Martinez Vargas
+   City:           Mexico
+   State:          Ciudad de Mexico
+   Country:        Mexico
+Name Servers:
+   DNS:            a26-67.akam.net       
+   DNS:            a1-179.akam.net       
+   DNS:            a20-66.akam.net       
+   DNS:            a3-64.akam.net       
+   DNS:            a7-65.akam.net       
+DNSSEC DS Records:

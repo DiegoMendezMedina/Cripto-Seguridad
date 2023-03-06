@@ -1,0 +1,82 @@
+error: no se pudo conectar a ipn.mx con ping
+nombre: ipn.mx
+direcciòn:  104.214.26.43
+
+	=====
+	Saltos para lograr la conexiòn 
+	=====
+	traceroute to ipn.mx (104.214.26.43), 30 hops max, 60 byte packets
+	 1  10.0.2.2 (10.0.2.2)  0.317 ms  0.223 ms  0.213 ms
+	 2  7962v1.bwrouter (192.168.1.254)  4.323 ms  4.282 ms  4.107 ms
+	 3  dsl-servicio-l200.uninet.net.mx (200.38.193.226)  10.923 ms  10.825 ms  10.613 ms
+	 4  reg-qro-triara-48-ae20_0.uninet.net.mx (189.246.170.226)  10.435 ms  10.303 ms  10.161 ms
+	 5  dsl-189-247-127-133-dyn.prod-infinitum.com.mx (189.247.127.133)  12.406 ms  12.313 ms  12.217 ms
+	 6  ae33-0.icr02.sn6.ntwk.msn.net (104.44.41.184)  38.597 ms  36.824 ms ae31-0.icr02.sn1.ntwk.msn.net (104.44.239.132)  42.851 ms
+	 7  * * *
+	 8  * * *
+	 9  * * *
+	10  * * *
+	11  * * *
+	12  * * *
+	13  * * *
+	14  * * *
+	15  * * *
+	16  * * *
+	17  * * *
+	18  * * *
+	19  * * *
+	20  * * *
+	21  * * *
+	22  * * *
+	23  * * *
+	24  * * *
+	25  * * *
+	26  * * *
+	27  * * *
+	28  * * *
+	29  * * *
+	30  * * *
+	=====
+	Fin de saltos
+	=====
+	===
+	Host is up (0.043s latency).
+	Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+	PORT    STATE SERVICE
+	80/tcp  open  http
+	443/tcp open  https
+	Nmap done: 1 IP address (1 host up) scanned in 4.67 seconds
+	===
+Domain Name:       ipn.mx
+Created On:        1995-04-30
+Expiration Date:   2023-04-29
+Last Updated On:   2022-04-26
+Registrar:         AKKY ONLINE SOLUTIONS, S.A. DE C.V.
+URL:               http://www.akky.mx
+Whois TCP URI:     whois.akky.mx
+Whois Web URL:     http://www.akky.mx/herramientas/whois.jsf
+Registrant:
+   Name:           Instituto Politecnico Nacional
+   City:           No hay informacion
+   State:          Distrito Federal
+   Country:        Mexico
+Administrative Contact:
+   Name:           Contacto NIC del IPN
+   City:           Mexico
+   State:          Distrito Federal
+   Country:        Mexico
+Technical Contact:
+   Name:           Departamento de Conectividad del IPN
+   City:           Mexico
+   State:          Distrito Federal
+   Country:        Mexico
+Billing Contact:
+   Name:           Contacto NIC del IPN
+   City:           Mexico
+   State:          Distrito Federal
+   Country:        Mexico
+Name Servers:
+   DNS:            dns2.ipn.mx       148.204.198.2
+   DNS:            dns3.ipn.mx       148.204.235.2
+   DNS:            dns1.ipn.mx       148.204.103.2
+DNSSEC DS Records:

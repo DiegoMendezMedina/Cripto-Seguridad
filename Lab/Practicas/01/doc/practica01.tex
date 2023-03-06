@@ -7,7 +7,7 @@
 \usepackage{listings} 
 \usepackage{float}
 \usepackage{graphicx}
-\graphicspath{ {Imagenes/} }
+\graphicspath{ {img/} }
 \usepackage{mdframed}
 \usepackage[shortlabels]{enumitem}
 \usepackage{indentfirst}
@@ -47,7 +47,7 @@
 \begin{problem}
     {1} Menciona los tipos de protocolos de red
 \end{problem}
-
+v
 \begin{solution}
     \begin{itemize}
         \item \textbf{Protocolos de comunicación} \\
@@ -180,7 +180,7 @@ Su utlidad se basa en conseguir toda la información disponible en cualquier fue
     No, tal vez la autetenrticación por 2 pasos hoy en día es un buen mecanismo, pero creemos que podemos hacer más para proteger nuestra información.
 \end{solution}
 
-
+\newpage
 %% Reporte Script
 \section{Reporte Script}
 
@@ -226,9 +226,20 @@ y experiencia.
 {} Etapa de obtención de la información. Explicación script.  
 \end{problem}
 
-Para el {\it script}, nos ayudamos en los comandos de linux compartidos por Ximena.
+Para el {\it script}, nos ayudamos en los comandos de linux compartidos por Ximena,
+nos auxiliamos de ping para conocer la direcciòn ip, aunque en los demàs comando tambìen solìa aparecer.
 
+De traceroute para conocer los saltos lo cual tambìen nos daba aveces informaciòn de la red a la
+que estabamos conectados en partìcular el gateway. El inicio de la pràctica se realizo en una cafeterìa
+(Tierra Garat) y pudimos verificar que sus enrutadores son CISCO y que tenian el usuario y contraseña
+por default, no se hizo nada con esa informaciòn.
 
+Seguimos utilizando nslookup para obtener todas las direcciones ips asociadas.
+
+Y por ùltimo whous y nmap para obtener informaciòn de contacto (ya sean instituciones o personas)
+y los respectivos DNS de sus servidores.
+
+Utilizamos {\it bash} y tratamos de pulir la informaciòn lo màs posible. 
 \subsection{Procesamiento}
 
 \begin{problem}
@@ -237,7 +248,37 @@ En caso de querer obtener más información explicar el posible uso de la misma,
 relevancia.  
 \end{problem}
 
+A continuaciòn mostramos caputras de la ejecuciòn, para una mejor visualizaciòn
+en el \href{https://github.com/DiegoMendezMedina/Cripto-Seguridad/tree/main/Lab/Practicas/01/out}{github}
+se encuentran los archivos en texto plano.
 
+\begin{itemize}
+\item {\tt unam.mx}
+
+  \includegraphics[scale = .25]{unam_1}
+  
+  \includegraphics[scale = .25]{unam_2}
+
+  \includegraphics[scale = .25]{unam_3}
+\item {\tt pemex.com}
+
+  
+  \includegraphics[scale = .25]{pemex_1}
+  
+  \includegraphics[scale = .25]{pemex_2}
+
+  \includegraphics[scale = .25]{pemex_3}
+\item {\tt gob.mx}
+
+  \includegraphics[scale = .25]{gob_1}
+  
+  \includegraphics[scale = .25]{gob_2}
+\item {\tt ipn.mx}
+
+  \includegraphics[scale = .25]{ipn_1}
+  
+  \includegraphics[scale = .25]{ipn_2}
+\end{itemize}
 
 \subsection{Análisis}
 
@@ -247,13 +288,74 @@ relevancia.
 relaciones entre estos que nos permitan llegar a conclusiones (vulnerabilidades).
 \end{problem}
 
-\subsection{Presentación}
+\begin{itemize}
+\item unam.mx
 
-\begin{problem}
-  {}
-  Darle a la información y conclusiones un formato en el que se pueda comprender
-  de manera eficaz y sencilla presentando así tus propias propuestas de ataque.
-\end{problem}
+  En la parte donde utilizamos traceroute vemos que una de las ùltimas conexiones es
+  1004-iimas.redunam.mx con ip 132.247.237.214, y tambìen sabemos que existe un
+  ùnico puerto abierto el 443 y esta configurado con el protocolo de transferencia
+  de hipertexto seguro.
+
+  El dìa treinta de este mes, vence el dominio y fua actualizado por ùltima vez hace unos
+  meses, en Diciembre del año pasado.
+
+  Entre los nombres que nos menciona el script destaca el de
+  \href{https://www.tic.unam.mx/hectorbenitez/}{Hèctor Benitez}, actual
+  director de la Direcciòn General de Computo y Tècnologia y tambìen docente en el IIMAS.
+
+  El otro nombre es \href{https://www.nic.unam.mx/page5.html}{Alejandro Cruz Santos}, ingeniero
+  y responsable de el Centro de Informaciòn de Red de la UNAM.
+
+  Por ùltimo las dos direcciones ips de dos de los servidores de la unam. 132.248.108.215 y
+  132.248.204.32
+  
+\item pemex.com
+
+  Traceroute no nos permite ver gran parte de los saltos, en partìcular los cercanos al final de conexiòn.
+
+  Tienen dos puertos abiertos, el 80 y 443, de http y https respectivamente. Sabemos de redes que http es
+  menos seguro. (usan los puertos por default).
+
+  Su registro tambìen expira este año, en Junio 21.
+
+  Solo sabemos que sus oficinas estan en la Ciudad de Mèxico, pero el resto de los datos estan
+  restringidos por privacidad.
+
+  Por ùltimo tenemos el nombre cuatro de sus servidores: dns1.p07.nsone.net
+  ,dns2.p07.nsone.net
+  ,dns3.p07.nsone.net
+  ,dns4.p07.nsone.net
+\item www.gob.mx
+
+  Tenemos sus dos direcciones ips asociadas a home, de nuevo nos bloquean los saltos cercanos
+  a la conexiòn.
+
+  Tambìen estan activados los dos puertos https y http por default.
+
+  El dominio no expira hasta el proximo año, pues el primero de este mes acaba de ser actualizado.
+
+  Figura el nombre de Eduardo Martinez Vargas, con perfil de
+  \href{https://mx.linkedin.com/in/eduardomartinezv}{linkedin} nos enteramos que radica en
+  Iztapalapa, que da clases en una preparatoria y lleva cuatro años en su puesto como
+  Lider de Proyectos en el gobierno de la repblica mèxicana.
+
+  Tambìen tenemos el DNS de cuatro de sus servidores, concecionados de la empresa
+  \href{https://www.akamai.com/es}{akami}
+  
+\item ipn.mx
+  
+  Nos bloquean los ùltimos saltos y es la ùnica que nos hace dar los treina, prendidos los
+  mismos puertos que hemos estado mencinando, El domino expira a finales del siguiente mes,
+  pero fue actualizado por las mismas fechas del año pasado.
+
+  Ellos no dan nombres mas que las instituciones con las que hay que contactar, con una googleada
+  salen directorxs con sus correos.
+
+  Tenemos acceso a tres DNS de sus servidores, destacan que la extension de estos es ipn.mx a diferencia
+  de los anteriores. La extensiòn no indica necesariemente que sean servidores de ellos, pero todo
+  parece indicar que sì. 
+  
+\end{itemize}
 
 \begin{thebibliography}{2} % 100 is a rangyesdom guess of the total number of
 %references
