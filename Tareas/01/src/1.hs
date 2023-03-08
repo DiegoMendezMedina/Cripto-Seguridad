@@ -22,11 +22,11 @@ cipher_char c k = k + (mod m 26)
 --               a enteros.
 -- *Usa índice base 1
 all_values :: Char -> [Integer]
-all_values c = all_values_aux c 26
+all_values c = all_values_aux c 1
 
 -- | all_values_aux: función auziliar para all_values (itera).
 -- *Usa indice base 1
 all_values_aux :: Char -> Integer -> [Integer]
-all_values_aux c 1 = (cipher_char c 1):[]
-all_values_aux c n = (cipher_char c n):all_values_aux c (n-11)
+all_values_aux c 26 = (cipher_char c 26):[]
+all_values_aux c n = (cipher_char c n):all_values_aux c (n+1)
 
