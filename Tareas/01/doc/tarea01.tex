@@ -226,10 +226,10 @@ cuando cometiamos un error.
 %% 5
 \begin{problem}{5}
   Considera la siguiente modificación al sistema one-time real pad; se usan mensajes de longitud
-  arbitraria pero acotada, es decir, $\mathcal{M} ) \{0,1\}^{\leq\mathcal{l}}$ (cadenas de bits de
-  longitud entre 1 y $\mathcal{l}$). Oara encriptar se usan llaves de tamaño $\mathcal{l}$ y
+  arbitraria pero acotada, es decir, $\mathcal{M} = \{0,1\}^{\leq l}$ (cadenas de bits de
+  longitud entre 1 y $l$). Para encriptar se usan llaves de tamaño $l$ y
   al aplicar el {\rm XOR} solo se usa el número de bits necesarios de la llave, es decir,
-  $K = \{0,1\}^\mathcal{l}$ y $E(k,m):=k_{|m|} \oplus m$.
+  $K = \{0,1\}^l$ y $E(k,m):=k_{|m|} \oplus m$.
 
   \begin{enumerate}
   \item[a)] Muestra que este mecanismo no es perfectamente seguro.
@@ -239,6 +239,32 @@ cuando cometiamos un error.
   \end{enumerate}
 \end{problem}
 
+{\bf Solución:}
+
+\begin{enumerate}
+\item[a)] 
+
+  El truco esta en que el mensaje puede ser de longitud $x\in [1, l]$, con $l$ fija. Y
+  la clave {\bf forzosamente} es de longitud $l$.
+  
+  Así el conjunto de posibles claves es de longitud $2^l$ (debido a la cardinalidad del
+  alfabeto). Por otro lado la cardinalidad del conjunto de mensajes es de $\sum_{i=1}^{l}2^i$,
+  que para $l>1$ es diferente. Por lo tanto hay más mensajes que claves (NO es seguro).
+  
+\item[b)]
+
+  Primero hay que lograr que el número de llaves sea el mismo que mensajes. Como
+  no tenemos forma de alterar a $\mathcal{M}$ solo nos queda moverle a la definición de $K$.
+
+  La única forma en la que sean iguales es haciendolo igual, es decir $K=\{0,1\}^{\leq l}$.
+
+  Por último debemos cambiar el modo de encriptación, este debe ser mantener la propiedad
+  de que todas las claves sean equiprobables, esto nos lo da el xor por default. Entonces
+  solo basta con decir que haremos con las claves que son de menor longitud que los mensajes.
+  si $|m| = r$ y $r>|k|$ entonces se crea una nueva clave $E(k,m):= k'\oplus m$, donde
+  $k'= k\oplus y$ con $y=k>>n$, $n=r-|k|$. En caso que $|m|\leq|k|$ es identico al descrito
+  en el problema.  
+\end{enumerate}
 %% 6
 \begin{problem}{6}
   
@@ -251,6 +277,28 @@ cuando cometiamos un error.
   el juego con probabilidad mayor a $\frac{1}{2}$.
 \end{problem}
 
+Un claro ejemplo de cifrado símetrico es {\tt XOR}.
+De $|K| < |\mathcal{M}|$ sabemos que el sistema no es seguro, y en particular tratamos de tomar el
+mecanismo de la pregunta cinco, pero al ser binario y como ambos mensajes que escojiera
+el adversario tenian que tener la misma longitud no habia mucho que hacer.
+
+Entonces utilizaremos Cesar con la restricción que tenia el ejercicio cinco:
+
+\begin{align*}
+  M &= \{a,b,c\}^{\leq 3} \text{(cadenas de longitud entre $1$ y $3$)}\\
+  K &= \{1,2,3\}
+\end{align*}
+
+La cardinalidad de los posibles mensajes es de 39 y la de las contraseñas de 3.
+
+El adversario escoje como mensajes $m_1 = aa$ y $m_2=ab$. Se los pasa a la computadora
+encripta alguno y lo devuelve. Como es cesar cada letra se mapea a una del alfabeto y se
+remplaza en todas sus ocurrencias. Así hay de dos o devuelve algo de la forma
+$xx$ o $xy$, con $x,y\in \{a,b,c\}$. El adversario sabe que si es de la forma
+$xx$ entonces corresponde a la encriptación de $m_1$ y si no a $m_2$.
+
+El adversario tiene un cien porciento de probabilidad de ganar.
+  
 %% 8
 \begin{problem}{8}
   
