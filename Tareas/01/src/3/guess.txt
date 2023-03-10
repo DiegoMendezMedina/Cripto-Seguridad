@@ -1,0 +1,81 @@
+En la segunda palabra fijara una JJ
+como primeras letras, por lo tanto
+creemos que J:= l
+a,b,c,d,e,f,g,h,i,j,k,m,n,ñ,o,p,q,r,s,t,u,v,w,x,y,z
+
+Seguro que Q es vocal por que tenemos Ql,
+puede ser a o e, las demás quedan descartadas.
+En el mismo renglo donde aparece el Ql, dos palabras
+atrás aparace un ASQ(secuencia que aparece otras seis veces).
+
+No podemos pensar en una palabra de tres silabas que termine en a,
+más que aca, ala. Pensamos que ASQ corresponde a "que", pero
+no estamos tan seguros por que en ninguna otra palabra aparcen SQ juntas.
+
+Intentaremos con ASQ = "que" y entonces A:= q, S:= u, Q:=e.
+a,b,c,d,f,g,h,i,j,k,m,n,ñ,o,p,r,s,t,v,w,x,y,z
+
+
+En el primer renglon tenemos Xe, y en el quinto Xel, si bien existen las
+palabras cel, gel, del es la que suena más clara además de que ce y ge no
+significan nada en español, entonces susituimos X:= d.
+a,b,c,f,g,h,i,j,k,m,n,ñ,o,p,r,s,t,v,w,x,y,z
+
+Sabemos que utilizamos el conectivo $e$ en vex de $y$ español para enumerar
+y cuando la última palabra comienza con $i$, con esa información y que
+hay una e sola en el cuarto renglón decimos que K:= i.
+
+Si vamos bien solo quedan las vocales a y o.
+
+R, la letra con mayor frecuencia, figura dos veces como palaba de una única letra
+y en más de siete palabras es la última letra. De acuerdo a internet
+las letras más usadas en el español actual son la e y la a, dado que supuestamente
+ya tenemos la e iremos con que R:=a.
+b,c,d,f,g,h,j,k,m,n,ñ,o,p,r,s,t,v,w,x,y,z
+
+Tratamos de concentrarnos en palabras donde falta una única letra.
+En el penultimo renglón figura la palabra $Nea$, $laN$, justo arriba de esta se encuentra $iNla$
+y dos más arriba $Nu$. Estás dos últimas palabras
+son las que más nos hacen creer que N:=s, pues tras recorrer el resto de las palabras restantes en
+nuestra mente.
+b,c,f,g,h,j,k,m,n,ñ,o,p,r,t,v,w,x,y,z
+
+En las diez veces que aparece P, siete lo hace sola y en las restantes nunca como la última letra
+entonces si bien $H$ aparece úna vez sola nos inclinamos más por el P:=y.
+b,c,d,f,g,h,j,k,m,n,ñ,o,p,r,t,v,w,x,z
+
+No ocurre en el español una consonante sola y además
+tenemos la palabra dHs en el penultimo renglon, entonces tomamos H:= o
+b,c,f,g,h,j,k,m,n,ñ,p,r,t,v,w,x,z
+
+Hemos terminado con las vocales.
+
+En el primero renglón tenemos Ouyas aWuas, y en el antepenultimo
+OiZOo o seis ..., si tomasemos O:= c tendriamos quizá cuyas y cinco
+que tiene sentido seguido del "o seis". Tomamos O:=c y Z:=n
+b,f,g,h,i,j,k,m,ñ,p,r,t,v,w,x,z
+
+Solo leyendo el primer renglón
+pareciera ser que dice e(x?)$t$ensión oceanica cuyas a$g$uas $t$enian un colo$r$.
+asumiendo que W:=g, B:=t y V:=r. El siguiente renglón viene a corroborar eso
+pues entonces se lee: $t$an (p?)arecido a la tinta que (m?)e $r$eco$r$da$r$on.
+Tambíen a las pasadas añadiremos G:=m y L:=p pues permite completar las de arriba
+y en dos ocasiones figura Gillas y en otras dos LequeÑa (unicas apariciones de ñ),
+con un alfabeto de carnidalidad impar un elemento se quedaria sin cambiar de elemento.
+Por ahora creemos que la Ñ no cambia. Y que la única aparición de M en efecto es la x en extensión.
+b,f,h,j,k,m,ñ,v,w,z
+
+Del primero renglon se intuye que G:=m U:= b y F:=v, que se corrobora a lo largo de
+las palabras restantes. A falta de y,n asumimos que Y:= h para tener "hace".
+f,j,k,ñ,p,w,z
+
+Las únicas dos apariciones de T parecen ser una f con lo que tendriamos
+geografo y fero(z?)ado. Así T:= f y C:= z
+j,k,ñ,w
+
+De las que nos quedan, D aparece una úncica vez en salva$j$es, 
+k,ñ,w
+
+Solo figuraban 25 letras mayusculas, donde en efecto Ñ:=ñ.
+con lo que no queda claro k y w con quien se sustituyo si con
+la E o la I.

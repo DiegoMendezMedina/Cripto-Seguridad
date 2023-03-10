@@ -145,6 +145,7 @@
   \end{enumerate}
 \end{problem}
 
+\newpage
 %% 3
 \begin{problem}{3}
   El siguiente texto fue crifrado con una sustitución monoalfabética. Encuentra el texto claro en
@@ -168,22 +169,55 @@
   {\tt RSJJRZXH P VSWKQZXH QBQVZRGQZBQ HLSQNBR RJ LVHGHZBHVKH NHUVQ OSPR OKGR ZHN YRJJRURGHN}
 
   {\tt P R SZRN OKZOH H NQKN GKJJRN XQZBVH XQJ GRV RXFQVBKRNQ SZR LQASQÑR KNJR XQ RNLQOBH XQNQVBKOH}
+  
   {\tt ASKCR NQR GRN RXQOSRXH XQOKV ASQ NS LHNKOKHZ NQ RXKFKZRUR WVROKRN R JRN NRJFRDQN VHGLKQZBQN}
+  
   {\tt ASQ JR QZFHJFKRZ SZRN XHN GKJJRN GRN OQVOR RJCRURNQ HBVR KNJR GRN LQASQÑR YHVVKUJQGQZBQ}
 
   {\tt QNORVLRXR P QNBQVKJ VHXQRXR QZ FRVKRN LRVBQN LHV RGHZBHZRGKQZBHN XQ HNOSVRN VHORN}
 
-  \normalsize
+  \normalfont
 
   Con frecuencias:
 
   \ttfamily
   R: 125, Q: 95, H: 66, N: 58, Z: 57, V: 56, K: 52, J: 43, O: 40, X: 39, S: 34, B: 33,
+  
   G: 30, L: 18, U: 13, W: 11, F: 10, P: 10, A: 9, Y: 7, C: 5, T: 2, Ñ: 2, M: 1, D: 1
 
-  \normalfamily
-  %% Frecuencias
+  \normalfont
 \end{problem}
+
+{\bf Solución:}
+
+No nos animamos a usar ganzua por que fue un problema instalarlo, pero fuimos viendo
+videos e intentando inicialmente a mano y en papel, pero nos generaba mucho ruido y
+volver a iniciar era un desastre lleno de frustración e impotencia y el tiempo parecia perdido a pesar
+de la experiencia de ir viendo cuales podian ser las correctas.
+
+Es por eso que decidimos realizarlo con ayuda de emacs, con los comandos para sustituir(M-x replace-string),
+para buscar cáracteres (C-s M-c) con case-sensitive y con ayuda de los buffers nos permitio
+(con ayuda de lo hecho en papel) a tener claras las ideas y ver por donde ir, en cuanto nos equivocabamos
+bastaba con hacer redo (C-x u) en los respectivos buffers y volviamos a un punto donde
+pareciamos ir seguro. A continuación mostramos la ubicación de los buffers y como es que nos ayudaron:
+
+
+%% imagen
+\includegraphics[scale=.20]{3}
+
+En el buffer 3.txt teniamos el texto en el que ibamos reemplazando caracteres mayusculos con nuestra
+suposición actual, en el buffer guess.txt es donde desarrollamos nuestro pensamiento y en que nos basamos
+para hacer las conjeturas, se puede ver que llevabamos para cada sustitución un alfabeto de caracteres pendientes.
+Y por último en saves.txt ibamos guardando el texto hasta con las sustituciones que creiamos pertinentes,
+estos últimos dos fueron los buffers donde más tuvimos que borrar pues regresabamos a ``versiones'' anteriores
+cuando cometiamos un error.
+
+
+{\large{\bf *NOTA:}} Estos archivos, sobrea todo guess.txt, se encuentran
+\href{https://github.com/DiegoMendezMedina/Cripto-Seguridad/tree/main/Tareas/01/src/3}{aquí}.
+
+
+
 %% 4
 \begin{problem}{4}
   

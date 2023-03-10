@@ -1,0 +1,155 @@
+A B C D _ F G H _ J K L N Ñ M O P Q R S T UV W X Y Z
+
+Sustityendo: J:= l
+
+GKVQ llQZH XQ FQVBKWH P XQNOSUVK SZR FRNBR QMBQZNKHZ HOQRZKOR OSPRN RWSRN BQZKRZ SZ OHlHV
+BRZ LRVQOKXH R lR BKZBR ASQ GQ VQOHVXRVHZ lR XQNOVKLOKHZ ASQ YROQ Ql WQHWVRTH ZSUKH XQl
+GRVQ BQZQUVRVSG ZKZWSZR KGRWKZROKHZ YSGRZR LHXVKR OHZOQUKV LRZHVRGR GRN lRGQZBRUlQGQZBQ
+XQNHlRXH R XQVQOYR Q KCASKQVXR P YRNBR XHZXQ LHXKR RlORZCRV lR GKVRXR NQ BQZXKRZ OHGH
+GSVRllRN XQl GSZXH ORXQZRN XQ RORZBKlRXHN YHVVKUlQGQZBQ ZQWVHN P OHlWRZBQN OSPH lSWSUVQ
+RNLQOBH FQKRNQ VQTHVCRXH LHV lR VQNROR ASQ VHGLKR OHZBVR QllHN NS UlRZOR P lKFKXR OVQNBR
+RSllRZXH P VSWKQZXH QBQVZRGQZBQ HLSQNBR Rl LVHGHZBHVKH NHUVQ OSPR OKGR ZHN YRllRURGHN
+P R SZRN OKZOH H NQKN GKllRN XQZBVH XQl GRV RXFQVBKRNQ SZR LQASQÑR KNlR XQ RNLQOBH XQNQVBKOH
+ASKCR NQR GRN RXQOSRXH XQOKV ASQ NS LHNKOKHZ NQ RXKFKZRUR WVROKRN R lRN NRlFRDQN VHGLKQZBQN
+ASQ lR QZFHlFKRZ SZRN XHN GKllRN GRN OQVOR RlCRURNQ HBVR KNlR GRN LQASQÑR YHVVKUlQGQZBQ
+QNORVLRXR P QNBQVKl VHXQRXR QZ FRVKRN LRVBQN LHV RGHZBHZRGKQZBHN XQ HNOSVRN VHORN
+
+
+Sustituyedo A:= q, S:= u, Q:=e:
+
+GKVe lleZH Xe FeVBKWH P XeNOuUVK uZR FRNBR eMBeZNKHZ HOeRZKOR OuPRN RWuRN BeZKRZ uZ OHlHV
+BRZ LRVeOKXH R lR BKZBR que Ge VeOHVXRVHZ lR XeNOVKLOKHZ que YROe el WeHWVRTH ZuUKH Xel
+GRVe BeZeUVRVuG ZKZWuZR KGRWKZROKHZ YuGRZR LHXVKR OHZOeUKV LRZHVRGR GRN lRGeZBRUleGeZBe
+XeNHlRXH R XeVeOYR e KCquKeVXR P YRNBR XHZXe LHXKR RlORZCRV lR GKVRXR Ne BeZXKRZ OHGH
+GuVRllRN Xel GuZXH ORXeZRN Xe RORZBKlRXHN YHVVKUleGeZBe ZeWVHN P OHlWRZBeN OuPH luWuUVe
+RNLeOBH FeKRNe VeTHVCRXH LHV lR VeNROR que VHGLKR OHZBVR ellHN Nu UlRZOR P lKFKXR OVeNBR
+RullRZXH P VuWKeZXH eBeVZRGeZBe HLueNBR Rl LVHGHZBHVKH NHUVe OuPR OKGR ZHN YRllRURGHN
+P R uZRN OKZOH H NeKN GKllRN XeZBVH Xel GRV RXFeVBKRNe uZR LequeÑR KNlR Xe RNLeOBH XeNeVBKOH
+quKCR NeR GRN RXeOuRXH XeOKV que Nu LHNKOKHZ Ne RXKFKZRUR WVROKRN R lRN NRlFRDeN VHGLKeZBeN
+que lR eZFHlFKRZ uZRN XHN GKllRN GRN OeVOR RlCRURNe HBVR KNlR GRN LequeÑR YHVVKUleGeZBe
+eNORVLRXR P eNBeVKl VHXeRXR eZ FRVKRN LRVBeN LHV RGHZBHZRGKeZBHN Xe HNOuVRN VHORN
+
+Sustituyendo X:= d
+GKVe lleZH de FeVBKWH P deNOuUVK uZR FRNBR eMBeZNKHZ HOeRZKOR OuPRN RWuRN BeZKRZ uZ OHlHV
+BRZ LRVeOKdH R lR BKZBR que Ge VeOHVdRVHZ lR deNOVKLOKHZ que YROe el WeHWVRTH ZuUKH del
+GRVe BeZeUVRVuG ZKZWuZR KGRWKZROKHZ YuGRZR LHdVKR OHZOeUKV LRZHVRGR GRN lRGeZBRUleGeZBe
+deNHlRdH R deVeOYR e KCquKeVdR P YRNBR dHZde LHdKR RlORZCRV lR GKVRdR Ne BeZdKRZ OHGH
+GuVRllRN del GuZdH ORdeZRN de RORZBKlRdHN YHVVKUleGeZBe ZeWVHN P OHlWRZBeN OuPH luWuUVe
+RNLeOBH FeKRNe VeTHVCRdH LHV lR VeNROR que VHGLKR OHZBVR ellHN Nu UlRZOR P lKFKdR OVeNBR
+RullRZdH P VuWKeZdH eBeVZRGeZBe HLueNBR Rl LVHGHZBHVKH NHUVe OuPR OKGR ZHN YRllRURGHN
+P R uZRN OKZOH H NeKN GKllRN deZBVH del GRV RdFeVBKRNe uZR LequeÑR KNlR de RNLeOBH deNeVBKOH
+quKCR NeR GRN RdeOuRdH deOKV que Nu LHNKOKHZ Ne RdKFKZRUR WVROKRN R lRN NRlFRDeN VHGLKeZBeN
+que lR eZFHlFKRZ uZRN dHN GKllRN GRN OeVOR RlCRURNe HBVR KNlR GRN LequeÑR YHVVKUleGeZBe
+eNORVLRdR P eNBeVKl VHdeRdR eZ FRVKRN LRVBeN LHV RGHZBHZRGKeZBHN de HNOuVRN VHORN
+
+K:=i
+GiVe lleZH de FeVBiWH P deNOuUVi uZR FRNBR eMBeZNiHZ HOeRZiOR OuPRN RWuRN BeZiRZ uZ OHlHV
+BRZ LRVeOidH R lR BiZBR que Ge VeOHVdRVHZ lR deNOViLOiHZ que YROe el WeHWVRTH ZuUiH del
+GRVe BeZeUVRVuG ZiZWuZR iGRWiZROiHZ YuGRZR LHdViR OHZOeUiV LRZHVRGR GRN lRGeZBRUleGeZBe
+deNHlRdH R deVeOYR e iCquieVdR P YRNBR dHZde LHdiR RlORZCRV lR GiVRdR Ne BeZdiRZ OHGH
+GuVRllRN del GuZdH ORdeZRN de RORZBilRdHN YHVViUleGeZBe ZeWVHN P OHlWRZBeN OuPH luWuUVe
+RNLeOBH FeiRNe VeTHVCRdH LHV lR VeNROR que VHGLiR OHZBVR ellHN Nu UlRZOR P liFidR OVeNBR
+RullRZdH P VuWieZdH eBeVZRGeZBe HLueNBR Rl LVHGHZBHViH NHUVe OuPR OiGR ZHN YRllRURGHN
+P R uZRN OiZOH H NeiN GillRN deZBVH del GRV RdFeVBiRNe uZR LequeÑR iNlR de RNLeOBH deNeVBiOH
+quiCR NeR GRN RdeOuRdH deOiV que Nu LHNiOiHZ Ne RdiFiZRUR WVROiRN R lRN NRlFRDeN VHGLieZBeN
+que lR eZFHlFiRZ uZRN dHN GillRN GRN OeVOR RlCRURNe HBVR iNlR GRN LequeÑR YHVViUleGeZBe
+eNORVLRdR P eNBeVil VHdeRdR eZ FRViRN LRVBeN LHV RGHZBHZRGieZBHN de HNOuVRN VHORN
+
+
+R:= a
+GiVe lleZH de FeVBiWH P deNOuUVi uZa FaNBa eMBeZNiHZ HOeaZiOa OuPaN aWuaN BeZiaZ uZ OHlHV
+BaZ LaVeOidH a la BiZBa que Ge VeOHVdaVHZ la deNOViLOiHZ que YaOe el WeHWVaTH ZuUiH del
+GaVe BeZeUVaVuG ZiZWuZa iGaWiZaOiHZ YuGaZa LHdVia OHZOeUiV LaZHVaGa GaN laGeZBaUleGeZBe
+deNHladH a deVeOYa e iCquieVda P YaNBa dHZde LHdia alOaZCaV la GiVada Ne BeZdiaZ OHGH
+GuVallaN del GuZdH OadeZaN de aOaZBiladHN YHVViUleGeZBe ZeWVHN P OHlWaZBeN OuPH luWuUVe
+aNLeOBH FeiaNe VeTHVCadH LHV la VeNaOa que VHGLia OHZBVa ellHN Nu UlaZOa P liFida OVeNBa
+aullaZdH P VuWieZdH eBeVZaGeZBe HLueNBa al LVHGHZBHViH NHUVe OuPa OiGa ZHN YallaUaGHN
+P a uZaN OiZOH H NeiN GillaN deZBVH del GaV adFeVBiaNe uZa LequeÑa iNla de aNLeOBH deNeVBiOH
+quiCa Nea GaN adeOuadH deOiV que Nu LHNiOiHZ Ne adiFiZaUa WVaOiaN a laN NalFaDeN VHGLieZBeN
+que la eZFHlFiaZ uZaN dHN GillaN GaN OeVOa alCaUaNe HBVa iNla GaN LequeÑa YHVViUleGeZBe
+eNOaVLada P eNBeVil VHdeada eZ FaViaN LaVBeN LHV aGHZBHZaGieZBHN de HNOuVaN VHOaN
+
+N:= s
+GiVe lleZH de FeVBiWH P desOuUVi uZa FasBa eMBeZsiHZ HOeaZiOa OuPas aWuas BeZiaZ uZ OHlHV
+BaZ LaVeOidH a la BiZBa que Ge VeOHVdaVHZ la desOViLOiHZ que YaOe el WeHWVaTH ZuUiH del
+GaVe BeZeUVaVuG ZiZWuZa iGaWiZaOiHZ YuGaZa LHdVia OHZOeUiV LaZHVaGa Gas laGeZBaUleGeZBe
+desHladH a deVeOYa e iCquieVda P YasBa dHZde LHdia alOaZCaV la GiVada se BeZdiaZ OHGH
+GuVallas del GuZdH OadeZas de aOaZBiladHs YHVViUleGeZBe ZeWVHs P OHlWaZBes OuPH luWuUVe
+asLeOBH Feiase VeTHVCadH LHV la VesaOa que VHGLia OHZBVa ellHs su UlaZOa P liFida OVesBa
+aullaZdH P VuWieZdH eBeVZaGeZBe HLuesBa al LVHGHZBHViH sHUVe OuPa OiGa ZHs YallaUaGHs
+P a uZas OiZOH H seis Gillas deZBVH del GaV adFeVBiase uZa LequeÑa isla de asLeOBH deseVBiOH
+quiCa sea Gas adeOuadH deOiV que su LHsiOiHZ se adiFiZaUa WVaOias a las salFaDes VHGLieZBes
+que la eZFHlFiaZ uZas dHs Gillas Gas OeVOa alCaUase HBVa isla Gas LequeÑa YHVViUleGeZBe
+esOaVLada P esBeVil VHdeada eZ FaVias LaVBes LHV aGHZBHZaGieZBHs de HsOuVas VHOas
+
+P:y
+GiVe lleZH de FeVBiWH y desOuUVi uZa FasBa eMBeZsiHZ HOeaZiOa Ouyas aWuas BeZiaZ uZ OHlHV
+BaZ LaVeOidH a la BiZBa que Ge VeOHVdaVHZ la desOViLOiHZ que YaOe el WeHWVaTH ZuUiH del
+GaVe BeZeUVaVuG ZiZWuZa iGaWiZaOiHZ YuGaZa LHdVia OHZOeUiV LaZHVaGa Gas laGeZBaUleGeZBe
+desHladH a deVeOYa e iCquieVda y YasBa dHZde LHdia alOaZCaV la GiVada se BeZdiaZ OHGH
+GuVallas del GuZdH OadeZas de aOaZBiladHs YHVViUleGeZBe ZeWVHs y OHlWaZBes OuyH luWuUVe
+asLeOBH Feiase VeTHVCadH LHV la VesaOa que VHGLia OHZBVa ellHs su UlaZOa y liFida OVesBa
+aullaZdH y VuWieZdH eBeVZaGeZBe HLuesBa al LVHGHZBHViH sHUVe Ouya OiGa ZHs YallaUaGHs
+y a uZas OiZOH H seis Gillas deZBVH del GaV adFeVBiase uZa LequeÑa isla de asLeOBH deseVBiOH
+quiCa sea Gas adeOuadH deOiV que su LHsiOiHZ se adiFiZaUa WVaOias a las salFaDes VHGLieZBes
+que la eZFHlFiaZ uZas dHs Gillas Gas OeVOa alCaUase HBVa isla Gas LequeÑa YHVViUleGeZBe
+esOaVLada y esBeVil VHdeada eZ FaVias LaVBes LHV aGHZBHZaGieZBHs de HsOuVas VHOas
+
+
+H:= o
+GiVe lleZo de FeVBiWo y desOuUVi uZa FasBa eMBeZsioZ oOeaZiOa Ouyas aWuas BeZiaZ uZ OoloV
+BaZ LaVeOido a la BiZBa que Ge VeOoVdaVoZ la desOViLOioZ que YaOe el WeoWVaTo ZuUio del
+GaVe BeZeUVaVuG ZiZWuZa iGaWiZaOioZ YuGaZa LodVia OoZOeUiV LaZoVaGa Gas laGeZBaUleGeZBe
+desolado a deVeOYa e iCquieVda y YasBa doZde Lodia alOaZCaV la GiVada se BeZdiaZ OoGo
+GuVallas del GuZdo OadeZas de aOaZBilados YoVViUleGeZBe ZeWVos y OolWaZBes Ouyo luWuUVe
+asLeOBo Feiase VeToVCado LoV la VesaOa que VoGLia OoZBVa ellos su UlaZOa y liFida OVesBa
+aullaZdo y VuWieZdo eBeVZaGeZBe oLuesBa al LVoGoZBoVio soUVe Ouya OiGa Zos YallaUaGos
+y a uZas OiZOo o seis Gillas deZBVo del GaV adFeVBiase uZa LequeÑa isla de asLeOBo deseVBiOo
+quiCa sea Gas adeOuado deOiV que su LosiOioZ se adiFiZaUa WVaOias a las salFaDes VoGLieZBes
+que la eZFolFiaZ uZas dos Gillas Gas OeVOa alCaUase oBVa isla Gas LequeÑa YoVViUleGeZBe
+esOaVLada y esBeVil Vodeada eZ FaVias LaVBes LoV aGoZBoZaGieZBos de osOuVas VoOas
+
+O:=c y Z:=n
+
+GiVe lleno de FeVBiWo y descuUVi una FasBa eMBension oceanica cuyas aWuas Benian un coloV
+Ban LaVecido a la BinBa que Ge VecoVdaVon la descViLcion que Yace el WeoWVaTo nuUio del
+GaVe BeneUVaVuG ninWuna iGaWinacion YuGana LodVia conceUiV LanoVaGa Gas laGenBaUleGenBe
+desolado a deVecYa e iCquieVda y YasBa donde Lodia alcanCaV la GiVada se Bendian coGo
+GuVallas del Gundo cadenas de acanBilados YoVViUleGenBe neWVos y colWanBes cuyo luWuUVe
+asLecBo Feiase VeToVCado LoV la Vesaca que VoGLia conBVa ellos su Ulanca y liFida cVesBa
+aullando y VuWiendo eBeVnaGenBe oLuesBa al LVoGonBoVio soUVe cuya ciGa nos YallaUaGos
+y a unas cinco o seis Gillas denBVo del GaV adFeVBiase una LequeÑa isla de asLecBo deseVBico
+quiCa sea Gas adecuado deciV que su Losicion se adiFinaUa WVacias a las salFaDes VoGLienBes
+que la enFolFian unas dos Gillas Gas ceVca alCaUase oBVa isla Gas LequeÑa YoVViUleGenBe
+escaVLada y esBeVil Vodeada en FaVias LaVBes LoV aGonBonaGienBos de oscuVas Vocas
+
+W:=g, B:=t, V:=r, G:=m, L:=p, M:=x
+
+mire lleno de Fertigo y descuUri una Fasta extension oceanica cuyas aguas tenian un color
+tan Larecido a la tinta que me recordaron la descriLcion que Yace el geograTo nuUio del
+mare teneUrarum ninguna imaginacion Yumana Lodria conceUir Lanorama mas lamentaUlemente
+desolado a derecYa e iCquierda y Yasta donde Lodia alcanCar la mirada se tendian como
+murallas del mundo cadenas de acantilados YorriUlemente negros y colgantes cuyo luguUre
+asLecto Feiase reTorCado Lor la resaca que romLia contra ellos su Ulanca y liFida cresta
+aullando y rugiendo eternamente oLuesta al Lromontorio soUre cuya cima nos YallaUamos
+y a unas cinco o seis millas dentro del mar adFertiase una LequeÑa isla de asLecto desertico
+quiCa sea mas adecuado decir que su Losicion se adiFinaUa gracias a las salFaDes romLientes
+que la enFolFian unas dos millas mas cerca alCaUase otra isla mas LequeÑa YorriUlemente
+escarLada y esteril rodeada en Farias Lartes Lor amontonamientos de oscuras rocas
+
+
+G:=m, U:=b, F:=v, Y:=h
+
+mire lleno de vertigo y descubri una vasta extension oceanica cuyas aguas tenian un color
+tan parecido a la tinta que me recordaron la descripcion que hace el geograTo nubio del
+mare tenebrarum ninguna imaginacion humana podria concebir panorama mas lamentablemente
+desolado a derecha e iCquierda y hasta donde podia alcanCar la mirada se tendian como
+murallas del mundo cadenas de acantilados horriblemente negros y colgantes cuyo lugubre
+aspecto veiase reTorCado por la resaca que rompia contra ellos su blanca y livida cresta
+aullando y rugiendo eternamente opuesta al promontorio sobre cuya cima nos hallabamos
+y a unas cinco o seis millas dentro del mar advertiase una pequeÑa isla de aspecto desertico
+quiCa sea mas adecuado decir que su posicion se adivinaba gracias a las salvaDes rompientes
+que la envolvian unas dos millas mas cerca alCabase otra isla mas pequeÑa horriblemente
+escarpada y esteril rodeada en varias partes por amontonamientos de oscuras rocas
+
+
