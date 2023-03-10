@@ -54,7 +54,7 @@
     \mathcal{M} &= \{a,\,b,\,c,\,d,\,e,\,f,\,g,\,h,\,i,\,j,\,k,\,l,\,m,\,n,\,o,\,p,\,q,\,r,\,s,\,t,\,u,\,w,\,x,\,y,\,z\} \\
     K &= \{a,\,b,\,c,\,d,\,e,\,f,\,g,\,h,\,i,\,j,\,k,\,l,\,m,\,n,\,ñ,\,o,\,p,\,q,\,r,\,s,\,t,\,u,\,w,\,x,\,y,\,z\}\\
     E(k, m) &:= k+m\text{ mod } 26\\
-    D(k, c) &:= c-k \text{ mod } 26\\
+    D(k, c) &:= c-k \text{ mod } 26
   \end{align*}
 
 
@@ -123,8 +123,9 @@
 
   {\bf *Nota:} Para conseguir los posibles valores utilizamos código escrito en
   Haskell que se encuentra en el siguiente
-  \href{enlace}{https://github.com/DiegoMendezMedina/Cripto-Seguridad/tree/main/Tareas/01/src/1.hs}
+  \href{https://github.com/DiegoMendezMedina/Cripto-Seguridad/tree/main/Tareas/01/src/1.hs}{enlace}
 \end{enumerate}
+
 %% 2
 \begin{problem}{2}
   Considera los mecanismos de cifrado adaptados a cadenas de bytes y descifra los siguientes
@@ -150,11 +151,39 @@
   español y describe tu procedimiento de criptoanálisis. Puedes apoyarte del programa Ganzua
   \footnote{\href{https://ganzua.sourceforge.net/en/index.html}{Ganzüa}} u otro.
 
+  \small
   %% Texto
+  {\tt GKVQ JJQZH XQ FQVBKWH P XQNOSUVK SZR FRNBR QMBQZNKHZ HOQRZKOR OSPRN RWSRN BQZKRZ SZ OHJHV}
+  
+  {\tt BRZ LRVQOKXH R JR BKZBR ASQ GQ VQOHVXRVHZ JR XQNOVKLOKHZ ASQ YROQ QJ WQHWVRTH ZSUKH XQJ}
+  
+  {\tt GRVQ BQZQUVRVSG ZKZWSZR KGRWKZROKHZ YSGRZR LHXVKR OHZOQUKV LRZHVRGR GRN JRGQZBRUJQGQZBQ}
+  
+  {\tt XQNHJRXH R XQVQOYR Q KCASKQVXR P YRNBR XHZXQ LHXKR RJORZCRV JR GKVRXR NQ BQZXKRZ OHGH}
+  
+  {\tt GSVRJJRN XQJ GSZXH ORXQZRN XQ RORZBKJRXHN YHVVKUJQGQZBQ ZQWVHN P OHJWRZBQN OSPH JSWSUVQ}
+  
+  {\tt RNLQOBH FQKRNQ VQTHVCRXH LHV JR VQNROR ASQ VHGLKR OHZBVR QJJHN NS UJRZOR P JKFKXR OVQNBR}
+  
+  {\tt RSJJRZXH P VSWKQZXH QBQVZRGQZBQ HLSQNBR RJ LVHGHZBHVKH NHUVQ OSPR OKGR ZHN YRJJRURGHN}
 
+  {\tt P R SZRN OKZOH H NQKN GKJJRN XQZBVH XQJ GRV RXFQVBKRNQ SZR LQASQÑR KNJR XQ RNLQOBH XQNQVBKOH}
+  {\tt ASKCR NQR GRN RXQOSRXH XQOKV ASQ NS LHNKOKHZ NQ RXKFKZRUR WVROKRN R JRN NRJFRDQN VHGLKQZBQN}
+  {\tt ASQ JR QZFHJFKRZ SZRN XHN GKJJRN GRN OQVOR RJCRURNQ HBVR KNJR GRN LQASQÑR YHVVKUJQGQZBQ}
+
+  {\tt QNORVLRXR P QNBQVKJ VHXQRXR QZ FRVKRN LRVBQN LHV RGHZBHZRGKQZBHN XQ HNOSVRN VHORN}
+
+  \normalsize
+
+  Con frecuencias:
+
+  \ttfamily
+  R: 125, Q: 95, H: 66, N: 58, Z: 57, V: 56, K: 52, J: 43, O: 40, X: 39, S: 34, B: 33,
+  G: 30, L: 18, U: 13, W: 11, F: 10, P: 10, A: 9, Y: 7, C: 5, T: 2, Ñ: 2, M: 1, D: 1
+
+  \normalfamily
   %% Frecuencias
 \end{problem}
-
 %% 4
 \begin{problem}{4}
   
@@ -183,7 +212,9 @@
 
 %% 7
 \begin{problem}{7}
-  
+  Sea $\Pi$ un mecanismo de cifrado simétrico arbitrario en el que $|K| < |\mathcal{M}|$.
+  Considera el juego de distinguibilidad usando $\Pi$ y construye un adversario que gane
+  el juego con probabilidad mayor a $\frac{1}{2}$.
 \end{problem}
 
 %% 8
@@ -193,11 +224,19 @@
 
 %% 9
 \begin{problem}{9}
-  
+  El archivo {\tt foto.cifrada} es una imagen encriptada con el mecanismo de César adaptado al
+  alfabeto de bytes, es decir, el alfabeto es el conjunto $\{0,1,. . ., 255\}$ y los
+  desplazamientos se hacen módulo 256. La imagen original está en formato PNG. Haz un programa
+  para probar todas las llaves posibles y recupera la imagen. ¿Cuál es la llave? Anexa tu código.
 \end{problem}
 
+{\bf Solución:}
+
+La llave es $180$, el codigo fue escrito en python y se encuentra en el siguiente
+\href{https://github.com/DiegoMendezMedina/Cripto-Seguridad/tree/main/Tareas/01/src/9.py}{enlace}.
+
 %% 10
-p\begin{problem}{10}
+\begin{problem}{10}
   
 \end{problem}
 
