@@ -1,0 +1,139 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,amsfonts, fancyhdr, color, comment, graphicx, environ}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{listings} 
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{ {img/} }
+\usepackage{mdframed}
+\usepackage[shortlabels]{enumitem}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\pagestyle{fancy}
+
+\newenvironment{problem}[2][Pregunta]
+    { \begin{mdframed}[backgroundcolor=gray!20] \textbf{#1 #2} \\}
+    {  \end{mdframed}}
+
+\newenvironment{solution}
+    {\textbf{Respuesta:\\}}
+    {}
+
+\renewcommand{\qed}{\quad\qedsymbol}
+
+\binoppenalty=\maxdimen
+\relpenalty=\maxdimen
+
+\lhead{Criptografía y Seguridad}
+\rhead{420004358 Méndez Medina Diego\\420003708 Hernandez Uriostegui David} 
+\chead{\textbf{Práctica 01}}
+
+\begin{document}
+
+\tableofcontents
+
+\section{Cuestionario}
+
+\begin{problem}{1}
+  ¿Qué significa que un pentesting sea de Caja Blanca?
+\end{problem}
+
+\begin{problem}{2}
+  Crea un diagrama explicando como funciana el bloque de RAM de una computador.
+  Donde está el kernel, stack, el heap, etc.
+\end{problem}
+
+\begin{problem}{3}
+  Menciona el significado de los siguientes registro:
+
+  \begin{itemize}
+  \item EAX
+  \item EBX
+  \item EXC
+  \item EDX
+  \item ESI
+  \item EDI
+  \item EBP
+  \item ESP
+  \item EIP
+  \end{itemize}
+\end{problem}
+
+\begin{problem}{4}
+  ¿Qué es little endian y big endian?¿Cuál usa tu procesador?
+\end{problem}
+
+\begin{problem}{5}
+  ¿Qué es un segmento y que es un offset?
+\end{problem}
+
+\begin{problem}{6}
+  ¿Que arquitectura tiene tu computadora?
+\end{problem}
+
+\begin{problem}{7}
+  ¿Crées que esta vulnerabilidad desapareció con
+  las nuevas funciones seguras como fgets?
+\end{problem}
+\newpage
+%% Reporte 
+\section{Reporte}
+
+\subsection{Recopilación}
+
+\begin{problem}{}
+  En esta fase analizarás tus herramientas, el código y todo
+  lo que cuentas para llevar a cabo la práctica.
+\end{problem}
+
+
+\subsection{Análisis}
+
+\begin{problem}
+  {} Identificarás las vulnerabilidades y como aprovecharlas. Documentaras
+  todo lo que llegues a encontrar.
+\end{problem}
+
+
+\subsection{Explotación}
+
+\begin{problem}
+  {} En esta etapa documentarás la creación de tu exploit, como llegaste al puntero
+  base, y como usaste las herramientas para lograrlo.
+\end{problem}
+
+\subsection{Post-explotación}
+
+\begin{problem}
+  {} En esta fase explicarás tu exploit resultante, también las conclusiones
+  a las cuales llegaste. Explicarás como corregir el código de la práctica y anexarás la
+  correción en su respectiva carpeta.
+\end{problem}
+
+\subsection{Imagina}
+
+\begin{problem}{}
+  En esta fase intenta imaginar todo lo que podrias hacer utilizando esta vulnerabilidad.
+  Explicalo detalladamente y reflexiona el alcance de esta vulnerabilidad.
+\end{problem}
+
+
+\begin{thebibliography}{2} % 100 is a rangyesdom guess of the total number of
+%references
+\bibitem{} A
+\bibitem{} B
+\end{thebibliography}
+%%%%%%%%%%%%% end %%%%%
+
+\end{document}
+
